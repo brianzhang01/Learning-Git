@@ -1,0 +1,19 @@
+Create a new repository on the command line
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/brianzhang01/Learning-Git.git
+git push -u origin master
+
+Push an existing repository from the command line
+git remote add origin https://github.com/brianzhang01/Learning-Git.git
+git push -u origin master
+
+Best tutorial
+http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1#awesm=~oGP7pCOXoO5neP
+http://readwrite.com/2013/10/02/github-for-beginners-part-2#awesm=~oGP7hfagGRiTqK
+
+Pro Git: http://git-scm.com/book
+Git reference: http://gitref.org/
+git - the simple guide: http://rogerdudler.github.io/git-guide/
