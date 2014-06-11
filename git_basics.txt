@@ -10,6 +10,11 @@ Push an existing repository from the command line
 git remote add origin https://github.com/brianzhang01/Learning-Git.git
 git push -u origin master
 
+Other commands:
+git clone https://github.com/brianzhang01/Python-for-Signal-Processing.git
+git pull
+git log
+
 Best tutorial
 http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1#awesm=~oGP7pCOXoO5neP
 http://readwrite.com/2013/10/02/github-for-beginners-part-2#awesm=~oGP7hfagGRiTqK
