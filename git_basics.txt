@@ -24,6 +24,17 @@ Can't just do git rm!
 .gitignore file
 gitk --all shows a GUI
 
+git config core.editor “emacs -nw”
+http://stackoverflow.com/questions/60278/git-commit-opens-blank-text-file-for-what
+
+git config —list
+http://alvinalexander.com/git/git-show-change-username-email-address
+
+git remote show origin
+http://stackoverflow.com/questions/4089430/how-can-i-determine-the-url-that-a-local-git-repo-was-originally-cloned-from
+Reset using git remote set-url origin git@github.com:username/repo.git
+http://stackoverflow.com/questions/6565357/git-push-requires-username-and-password
+
 
 Best tutorial
 http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1#awesm=~oGP7pCOXoO5neP
