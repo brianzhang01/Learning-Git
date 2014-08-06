@@ -3,17 +3,27 @@ touch README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/brianzhang01/Learning-Git.git
+git remote add origin git@github.com:brianzhang01/project281.git
 git push -u origin master
 
 Push an existing repository from the command line
-git remote add origin https://github.com/brianzhang01/Learning-Git.git
+git remote add origin git@github.com:brianzhang01/project281.git
 git push -u origin master
 
 Other commands:
 git clone https://github.com/brianzhang01/Python-for-Signal-Processing.git
 git pull
 git log
+git reset HEAD <file>: unstages a file
+git revert: reverts a commit
+
+Unstage a file that's been included in a commit already: http://source.kohlerville.com/2009/02/untrack-files-in-git/
+git rm --cached filename (or git rm -r --cached filename)
+Can't just do git rm!
+
+.gitignore file
+gitk --all shows a GUI
+
 
 Best tutorial
 http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1#awesm=~oGP7pCOXoO5neP
@@ -22,3 +32,19 @@ http://readwrite.com/2013/10/02/github-for-beginners-part-2#awesm=~oGP7hfagGRiTq
 Pro Git: http://git-scm.com/book
 Git reference: http://gitref.org/
 git - the simple guide: http://rogerdudler.github.io/git-guide/
+
+Markdown cheatsheet
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+Two spaces before a new line for single space!
+
+Exiting vim
+http://stackoverflow.com/questions/11828270/how-to-exit-the-vim-editor
+
+Git replacing LF with CRLF, I think we're fine
+http://stackoverflow.com/questions/1967370/git-replacing-lf-with-crlf
+
+Need to change GitHub information from cloning using HTTPS to cloning using SSH:
+http://stackoverflow.com/questions/6565357/git-push-requires-username-and-password
+
+ssh-agent makes it so we don’t need to re-enter the passphrase
+https://help.github.com/articles/generating-ssh-keys
